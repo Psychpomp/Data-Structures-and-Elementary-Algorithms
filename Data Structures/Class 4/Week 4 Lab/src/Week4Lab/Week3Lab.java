@@ -1,13 +1,18 @@
-import java.io.*;
-import java.util.LinkedList;
+package Week4Lab;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.Arrays;
+import java.util.LinkedList;
 
 import static java.lang.Character.compare;
 
-public class Main {
-    public static void main(String[] args) {
+public class Week3Lab {
+    public static void main() {
         int c;
-        String path = "C:\\Users\\Ben\\Data-Structures-and-Elementary-Algorithms\\Data Structures\\Class 3\\Week 3 Lab\\src\\file.txt";
+        String path = "C:\\Users\\Ben\\Data-Structures-and-Elementary-Algorithms\\Data Structures\\Class 4\\Week 4 Lab\\src\\Week4Lab\\file.txt";
         try {
             File f = new File(path);
             FileReader fr = new FileReader(f);

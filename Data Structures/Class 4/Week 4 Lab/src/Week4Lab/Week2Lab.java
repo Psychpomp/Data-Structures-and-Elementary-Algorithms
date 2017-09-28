@@ -1,3 +1,5 @@
+package Week4Lab;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -124,7 +126,7 @@ public class Week2Lab {
         System.out.println();
     }
 
-    public static void main(String[] args) {
+    public static void main() {
         do {
             menu();
             if(a=='p'||a=='P') {
